@@ -88,7 +88,7 @@ elif TEMP < 2000 :
 TEMP = TEMP - T2
 OFF = OFF - OFF2
 SENS = SENS - SENS2
-pressure = ((((D1 * SENS2) / 2097152) - OFF2) / 8192.0) / 10.0
+pressure = ((((D1 * SENS) / 2097152) - OFF) / 8192.0) / 10.0
 cTemp = TEMP / 100.0
 fTemp = cTemp * 1.8 + 32
 
